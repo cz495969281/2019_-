@@ -1,0 +1,550 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>订单事务|订单事务|支付宝支付 | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../meiduo/美多商城项目-day11.html" />
+    
+    
+    <link rel="prev" href="../meiduo/美多商城项目-day09.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.10"
+        data-chapter-title="订单事务|订单事务|支付宝支付"
+        data-filepath="meiduo/美多商城项目-day10.md"
+        data-basepath=".."
+        data-revision="Thu Sep 06 2018 21:08:35 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        课堂笔记
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="drf/index.html">
+            
+                
+                    <a href="../drf/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        DRF框架
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="drf/day01.html">
+            
+                
+                    <a href="../drf/day01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        开发模式|RestAPI|DRF简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="drf/day02.html">
+            
+                
+                    <a href="../drf/day02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        序列化器|视图类|扩展类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="drf/day03.html">
+            
+                
+                    <a href="../drf/day03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        子类视图类|视图集|路由Router
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="drf/day04.html">
+            
+                
+                    <a href="../drf/day04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        其他功能
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="meiduo/index.html">
+            
+                
+                    <a href="../meiduo/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        美多商城项目
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="meiduo/美多商城项目-day01.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        认证系统|跨域请求|Celery
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="meiduo/美多商城项目-day02.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        注册|JWT Token|普通登录
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="meiduo/美多商城项目-day03.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        QQ登录
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="meiduo/美多商城项目-day04.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        邮件发送|省市县三级联动
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="meiduo/美多商城项目-day05.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day05.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        缓存|商品数据表|FDFS|Docker
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="meiduo/美多商城项目-day06.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day06.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        文件存储系统|页面静态化
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="meiduo/美多商城项目-day07.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day07.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        浏览记录|商品列表|商品搜索
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="meiduo/美多商城项目-day08.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day08.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        购物车存储
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="meiduo/美多商城项目-day09.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day09.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        购物车合并|订单创建
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.10" data-path="meiduo/美多商城项目-day10.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        订单事务|订单事务|支付宝支付
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="meiduo/美多商城项目-day11.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        用户权限|项目部署
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="&#x7F8E;&#x591A;&#x5546;&#x57CE;&#x9879;&#x76EE;">&#x7F8E;&#x591A;&#x5546;&#x57CE;&#x9879;&#x76EE;</h3>
+<h5 id="1-&#x8BA2;&#x5355;&#x4E8B;&#x52A1;">1. &#x8BA2;&#x5355;&#x4E8B;&#x52A1;</h5>
+<p>&#x5728;&#x8FDB;&#x884C;&#x8BA2;&#x5355;&#x4FE1;&#x606F;&#x4FDD;&#x5B58;&#x65F6;&#xFF0C;&#x6570;&#x636E;&#x5E93;&#x7684;&#x64CD;&#x4F5C;&#x8981;&#x4E48;&#x90FD;&#x5E94;&#x8BE5;&#x6210;&#x529F;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x5E94;&#x8BE5;&#x5931;&#x8D25;&#x3002;</p>
+<p>mysql&#x4E8B;&#x52A1;: &#x4E00;&#x7EC4;mysql&#x8BED;&#x53E5;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x6210;&#x529F;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x5931;&#x8D25;&#x3002;</p>
+<p>1&#xFF09;mysql&#x4E8B;&#x52A1;&#x7684;&#x64CD;&#x4F5C;:</p>
+<pre><code class="lang-python">begin&#x6216;start transaction: 
+    &#x624B;&#x52A8;&#x5F00;&#x542F;&#x4E00;&#x4E2A;mysql&#x4E8B;&#x52A1;&#x3002;
+commit: 
+    &#x4E8B;&#x52A1;&#x63D0;&#x4EA4;&#xFF0C;&#x8BA9;&#x4E8B;&#x52A1;&#x4E2D;sql&#x8BED;&#x53E5;&#x64CD;&#x4F5C;&#x7ED3;&#x679C;&#x6C38;&#x4E45;&#x751F;&#x6548;&#x3002;
+rollback: 
+    &#x4E8B;&#x52A1;&#x56DE;&#x6EDA;&#xFF0C;&#x64A4;&#x9500;&#x4E8B;&#x52A1;&#x4E2D;sql&#x8BED;&#x53E5;&#x64CD;&#x4F5C;&#x7ED3;&#x679C;&#x3002;
+</code></pre>
+<p>2&#xFF09;mysql&#x4E8B;&#x52A1;&#x4FDD;&#x5B58;&#x70B9;&#x64CD;&#x4F5C;:</p>
+<p>&#x5728;&#x4E8B;&#x52A1;&#x4E2D;&#xFF0C;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x4E8B;&#x52A1;&#x7684;&#x4FDD;&#x5B58;&#x70B9;&#xFF0C;&#x5728;&#x8FDB;&#x884C;&#x4E8B;&#x52A1;&#x56DE;&#x6EDA;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x56DE;&#x6EDA;&#x6574;&#x4E2A;&#x4E8B;&#x52A1;&#xFF0C;&#x800C;&#x662F;&#x56DE;&#x6EDA;&#x5230;&#x6307;&#x5B9A;&#x7684;&#x4FDD;&#x5B58;&#x70B9;&#x3002;</p>
+<pre><code>savepoint &#x4FDD;&#x5B58;&#x70B9;&#x540D;&#x79F0;:
+    &#x8BBE;&#x7F6E;&#x4E8B;&#x52A1;&#x4FDD;&#x5B58;&#x70B9;&#x3002;
+rollback to &#x4FDD;&#x5B58;&#x70B9;&#x540D;&#x79F0;:
+    &#x56DE;&#x6EDA;&#x5230;&#x6307;&#x5B9A;&#x7684;&#x4FDD;&#x5B58;&#x70B9;&#xFF0C;&#x4FDD;&#x5B58;&#x70B9;&#x4E4B;&#x540E;sql&#x8BED;&#x53E5;&#x64CD;&#x4F5C;&#x7ED3;&#x679C;&#x4F1A;&#x88AB;&#x64A4;&#x9500;&#x3002;
+</code></pre><p>3&#xFF09;Django&#x4E2D;&#x4F7F;&#x7528;&#x4E8B;&#x52A1;:</p>
+<pre><code class="lang-python"><span class="hljs-keyword">from</span> django.db <span class="hljs-keyword">import</span> transaction
+
+<span class="hljs-keyword">with</span> transaction.atomic():
+    <span class="hljs-comment"># with&#x8BED;&#x53E5;&#x5757;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x51E1;&#x662F;&#x6D89;&#x53CA;&#x5230;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;&#x7684;&#x8BED;&#x53E5;&#xFF0C;&#x90FD;&#x4F1A;&#x653E;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x4E2D;</span>
+
+    <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x4E8B;&#x52A1;&#x4FDD;&#x5B58;&#x70B9;</span>
+    sid = transaction.savepoint()
+
+    <span class="hljs-comment"># &#x5199;&#x4EE3;&#x7801;...</span>
+
+    <span class="hljs-comment"># &#x56DE;&#x6EDA;&#x4E8B;&#x52A1;&#x5230;&#x6307;&#x5B9A;&#x7684;&#x4FDD;&#x5B58;&#x70B9;</span>
+    transaction.savepoint_rollback(sid)
+</code></pre>
+<h5 id="2-&#x8BA2;&#x5355;&#x5E76;&#x53D1;">2. &#x8BA2;&#x5355;&#x5E76;&#x53D1;</h5>
+<p>&#x591A;&#x4E2A;&#x4EBA;&#x540C;&#x65F6;&#x8D2D;&#x4E70;&#x540C;&#x4E00;&#x4EF6;&#x5546;&#x54C1;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x4EA7;&#x751F;&#x8BA2;&#x5355;&#x5E76;&#x53D1;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x8BA2;&#x5355;&#x5E76;&#x53D1;&#x95EE;&#x9898;&#x89E3;&#x51B3;&#xFF1A;</p>
+<p>1&#xFF09;&#x60B2;&#x89C2;&#x9501;</p>
+<p>&#x200B;    &#x5728;&#x4E8B;&#x52A1;&#x4E2D;&#x67E5;&#x8BE2;&#x6570;&#x636E;&#x7684;&#x65F6;&#x5019;&#x5C1D;&#x8BD5;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x52A0;&#x9501;(&#x4E92;&#x65A5;&#x9501;), &#x83B7;&#x53D6;&#x5230;&#x9501;&#x7684;&#x4E8B;&#x52A1;&#x53EF;&#x4EE5;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF0C;&#x83B7;&#x53D6;&#x4E0D;&#x5230;&#x9501;&#x7684;&#x4E8B;&#x52A1;&#x4F1A;&#x963B;&#x585E;&#xFF0C;&#x76F4;&#x5230;&#x9501;&#x88AB;&#x91CA;&#x653E;&#x3002;</p>
+<p>2&#xFF09;&#x4E50;&#x89C2;&apos;&#x9501;&apos;</p>
+<p>&#x200B;    &#x4E50;&#x89C2;&#x9501;&#x672C;&#x8D28;&#x4E0A;&#x4E0D;&#x662F;&#x52A0;&#x9501;&#xFF0C;&#x67E5;&#x8BE2;&#x6570;&#x636E;&#x7684;&#x65F6;&#x5019;&#x4E0D;&#x52A0;&#x9501;&#xFF0C;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x4FEE;&#x6539;&#x7684;&#x65F6;&#x5019;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x5224;&#x65AD;,&#x4FEE;&#x6539;&#x5931;&#x8D25;&#x9700;&#x8981;&#x91CD;&#x65B0;&#x8FDB;&#x884C;&#x5C1D;&#x8BD5;&#x3002;</p>
+<p>3&#xFF09;celery&#x4EFB;&#x52A1;&#x961F;&#x5217;</p>
+<p>&#x200B;    &#x628A;&#x8BA2;&#x5355;&#x4FDD;&#x5B58;&#x4EE3;&#x7801;&#x5C01;&#x88C5;&#x6210;celery&#x4EFB;&#x52A1;&#x51FD;&#x6570;&#xFF0C;&#x542F;&#x52A8;worker&#x65F6;&#x53EA;&#x542F;&#x52A8;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x3002;</p>
+<p>mysql&#x4E8B;&#x52A1;&#x9694;&#x79BB;&#x7EA7;&#x522B;:</p>
+<table>
+<thead>
+<tr>
+<th>&#x9694;&#x79BB;&#x7EA7;&#x522B;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Repeatable read</strong> &#x53EF;&#x91CD;&#x590D;&#x8BFB;</td>
+<td>&#x5728;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x4E2D;&#x6267;&#x884C;&#x67E5;&#x8BE2;&#x8BED;&#x53E5;&#x65F6;&#xFF0C;&#x83B7;&#x53D6;&#x7684;&#x7ED3;&#x679C;&#x6C38;&#x8FDC;&#x548C;&#x7B2C;&#x4E00;&#x6B21;&#x83B7;&#x53D6;&#x5230;&#x7ED3;&#x679C;&#x4E00;&#x6837;&#xFF0C;&#x5373;&#x4F7F;&#x5176;&#x4ED6;&#x4E8B;&#x52A1;&#x5DF2;&#x7ECF;&#x628A;&#x6570;&#x636E;&#x4FEE;&#x6539;&#x5E76;&#x4E14;&#x8FDB;&#x884C;&#x4E86;&#x63D0;&#x4EA4;&#xFF0C;&#x5F53;&#x524D;&#x4E8B;&#x52A1;&#x4ECD;&#x7136;&#x83B7;&#x53D6;&#x4E0D;&#x5230;&#x66F4;&#x65B0;&#x4E4B;&#x540E;&#x7684;&#x7ED3;&#x679C;&#x3002;</td>
+</tr>
+<tr>
+<td><strong>Read committed</strong> &#x8BFB;&#x53D6;&#x5DF2;&#x63D0;&#x4EA4;</td>
+<td>&#x5176;&#x4ED6;&#x4E8B;&#x52A1;&#x628A;&#x6570;&#x636E;&#x4FEE;&#x6539;&#x5E76;&#x4E14;&#x63D0;&#x4EA4;&#x4E4B;&#x540E;&#xFF0C;&#x5F53;&#x524D;&#x4E8B;&#x52A1;&#x80FD;&#x83B7;&#x53D6;&#x5230;&#x66F4;&#x65B0;&#x4E4B;&#x540E;&#x7684;&#x7ED3;&#x679C;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x6CE8;&#xFF1A;<strong>Repeatable read</strong> &#x53EF;&#x91CD;&#x590D;&#x8BFB;&#x662F;mysql&#x6570;&#x636E;&#x5E93;&#x9ED8;&#x8BA4;&#x9694;&#x79BB;&#x7EA7;&#x522B;&#x3002;</p>
+</blockquote>
+<p>&#x4FEE;&#x6539;mysql&#x4E8B;&#x52A1;&#x7684;&#x9694;&#x79BB;&#x7EA7;&#x522B;:</p>
+<p>1&#xFF09;&#x7F16;&#x8F91;mysql&#x6570;&#x636E;&#x5E93;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p>
+<p>&#x200B;    sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf</p>
+<p>2&#xFF09;&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x9879;</p>
+<pre><code class="lang-python"> <span class="hljs-number">27</span> [mysqld]
+ <span class="hljs-number">28</span> <span class="hljs-comment">#</span>
+ <span class="hljs-number">29</span> <span class="hljs-comment"># * Basic Settings</span>
+ <span class="hljs-number">30</span> <span class="hljs-comment">#</span>
+ <span class="hljs-number">31</span> user        = mysql
+ <span class="hljs-number">32</span> pid-file    = /var/run/mysqld/mysqld.pid
+ <span class="hljs-number">33</span> socket      = /var/run/mysqld/mysqld.sock
+ <span class="hljs-number">34</span> port        = <span class="hljs-number">3306</span>
+ <span class="hljs-number">35</span> basedir     = /usr
+ <span class="hljs-number">36</span> datadir     = /var/lib/mysql
+ <span class="hljs-number">37</span> tmpdir      = /tmp
+ <span class="hljs-number">38</span> lc-messages-dir = /usr/share/mysql
+ <span class="hljs-number">39</span> skip-external-locking
+ <span class="hljs-number">40</span> <span class="hljs-comment"># &#x5C06;mysql&#x4E8B;&#x52A1;&#x7684;&#x9694;&#x79BB;&#x7EA7;&#x522B;&#x8BBE;&#x7F6E;&#x4E3A;&#x8BFB;&#x53D6;&#x5DF2;&#x63D0;&#x4EA4;</span>
+ <span class="hljs-number">41</span> transaction-isolation=READ-COMMITTED
+</code></pre>
+<p>3&#xFF09;&#x91CD;&#x542F;mysql&#x670D;&#x52A1;</p>
+<p>&#x200B;    sudo service mysql restart</p>
+<h5 id="3-&#x652F;&#x4ED8;&#x5B9D;&#x63A5;&#x5165;">3. &#x652F;&#x4ED8;&#x5B9D;&#x63A5;&#x5165;</h5>
+<p>&#x7EBF;&#x4E0A;&#x73AF;&#x5883;&#xFF1A;</p>
+<p>1&#xFF09;&#x767B;&#x5F55;&#x652F;&#x4ED8;&#x5B9D;&#x5F00;&#x53D1;&#x5E73;&#x53F0;&#x3002;</p>
+<p>2&#xFF09;&#x521B;&#x5EFA;&#x5F00;&#x53D1;&#x8005;&#x5E94;&#x7528;&#xFF0C;&#x8BBE;&#x7F6E;&#x76F8;&#x5173;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#xFF0C;&#x63D0;&#x4EA4;&#x5E76;&#x7B49;&#x5F85;&#x5BA1;&#x6838;&#x3002;</p>
+<p>3&#xFF09;&#x5BA1;&#x6838;&#x901A;&#x8FC7;&#xFF0C;&#x5E94;&#x7528;&#x4E0A;&#x7EBF;&#xFF0C;&#x5B8C;&#x6210;&#x7B7E;&#x7EA6;&#x3002;</p>
+<p>&#x6C99;&#x7BB1;&#x73AF;&#x5883;&#xFF1A;&#x5BF9;&#x771F;&#x5B9E;&#x652F;&#x4ED8;&#x5B9D;&#x73AF;&#x5883;&#x6A21;&#x62DF;&#xFF0C;&#x8BA9;&#x5F00;&#x53D1;&#x8005;&#x5728;&#x4E0D;&#x521B;&#x5EFA;&#x7EBF;&#x4E0A;&#x5E94;&#x7528;&#x60C5;&#x51B5;&#x4E0B;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6C99;&#x7BB1;&#x73AF;&#x5883;&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#x3002;</p>
+<p>SDK(&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x5305;)&#xFF1A;&#x5BF9;&#x539F;&#x751F;API&#x8FDB;&#x884C;&#x5C01;&#x88C5;&#x3002;</p>
+<p>python&#x652F;&#x4ED8;&#x5B9D;SKD: <code>pip install python-alipay-sdk --upgrade</code></p>
+<h5 id="4-&#x652F;&#x4ED8;api&#x63A5;&#x53E3;">4. &#x652F;&#x4ED8;API&#x63A5;&#x53E3;</h5>
+<p>1&#xFF09;&#x83B7;&#x53D6;&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;&#x7F51;&#x5740;API</p>
+<pre><code class="lang-http">API: GET /orders/(?P&lt;order_id&gt;\d+)/payment/
+&#x53C2;&#x6570;:
+    &#x5728;&#x8BF7;&#x6C42;&#x5934;&#x4E2D;&#x4F20;&#x9012;jwt token&#x6570;&#x636E;
+    &#x5728;url&#x5730;&#x5740;&#x4E2D;&#x4F20;&#x9012;&#x8BA2;&#x5355;id
+&#x54CD;&#x5E94;:
+    &#x8FD4;&#x56DE;&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;&#x7F51;&#x5740;
+    {
+        &apos;alipay_url&apos;: &apos;&#x652F;&#x4ED8;&#x7F51;&#x5740;&apos;
+    }
+</code></pre>
+<p>2&#xFF09;&#x4FDD;&#x5B58;&#x652F;&#x4ED8;&#x7ED3;&#x679C;API</p>
+<pre><code class="lang-http">API: PUT /payment/status/?&#x652F;&#x4ED8;&#x5B9D;&#x53C2;&#x6570;
+&#x53C2;&#x6570;:
+    &#x67E5;&#x8BE2;&#x5B57;&#x7B26;&#x4E32;&#x4F20;&#x9012;&#x652F;&#x4ED8;&#x5B9D;&#x53C2;&#x6570;
+&#x54CD;&#x5E94;:
+    {
+        &apos;trader_id&apos;: &apos;&#x652F;&#x4ED8;&#x5B9D;&#x4EA4;&#x6613;&#x53F7;&apos;
+    }
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../meiduo/美多商城项目-day09.html" class="navigation navigation-prev " aria-label="Previous page: 购物车合并|订单创建"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../meiduo/美多商城项目-day11.html" class="navigation navigation-next " aria-label="Next page: 用户权限|项目部署"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

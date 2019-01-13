@@ -1,0 +1,513 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>开发模式|RestAPI|DRF简介 | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../drf/day02.html" />
+    
+    
+    <link rel="prev" href="../drf/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1.1"
+        data-chapter-title="开发模式|RestAPI|DRF简介"
+        data-filepath="drf/day01.md"
+        data-basepath=".."
+        data-revision="Thu Sep 06 2018 21:08:35 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        课堂笔记
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="drf/index.html">
+            
+                
+                    <a href="../drf/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        DRF框架
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.1" data-path="drf/day01.html">
+            
+                
+                    <a href="../drf/day01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        开发模式|RestAPI|DRF简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="drf/day02.html">
+            
+                
+                    <a href="../drf/day02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        序列化器|视图类|扩展类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="drf/day03.html">
+            
+                
+                    <a href="../drf/day03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        子类视图类|视图集|路由Router
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="drf/day04.html">
+            
+                
+                    <a href="../drf/day04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        其他功能
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="meiduo/index.html">
+            
+                
+                    <a href="../meiduo/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        美多商城项目
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="meiduo/美多商城项目-day01.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        认证系统|跨域请求|Celery
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="meiduo/美多商城项目-day02.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        注册|JWT Token|普通登录
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="meiduo/美多商城项目-day03.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        QQ登录
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="meiduo/美多商城项目-day04.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        邮件发送|省市县三级联动
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="meiduo/美多商城项目-day05.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day05.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        缓存|商品数据表|FDFS|Docker
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="meiduo/美多商城项目-day06.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day06.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        文件存储系统|页面静态化
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="meiduo/美多商城项目-day07.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day07.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        浏览记录|商品列表|商品搜索
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="meiduo/美多商城项目-day08.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day08.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        购物车存储
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="meiduo/美多商城项目-day09.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day09.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        购物车合并|订单创建
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="meiduo/美多商城项目-day10.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        订单事务|订单事务|支付宝支付
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="meiduo/美多商城项目-day11.html">
+            
+                
+                    <a href="../meiduo/美多商城项目-day11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        用户权限|项目部署
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="drf&#x6846;&#x67B6;">DRF&#x6846;&#x67B6;</h3>
+<h5 id="1-&#x6388;&#x8BFE;&#x601D;&#x8DEF;">1. &#x6388;&#x8BFE;&#x601D;&#x8DEF;</h5>
+<ul>
+<li>web&#x5F00;&#x53D1;&#x7684;&#x4E24;&#x79CD;&#x6A21;&#x5F0F;(&#x524D;&#x540E;&#x7AEF;&#x4E0D;&#x5206;&#x79BB;&amp;&#x524D;&#x540E;&#x7AEF;&#x5206;&#x79BB;)</li>
+<li>RestAPI&#x8BBE;&#x8BA1;&#x98CE;&#x683C;</li>
+<li>&#x4F7F;&#x7528;Django&#x77E5;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;RestAPI&#x63A5;&#x53E3;</li>
+<li>&#x660E;&#x786E;RestAPI&#x63A5;&#x53E3;&#x5F00;&#x53D1;&#x65F6;&#x7684;&#x5DE5;&#x4F5C;</li>
+<li>DRF&#x6846;&#x67B6;&#x77E5;&#x8BC6;</li>
+</ul>
+<h5 id="2-web&#x5F00;&#x53D1;&#x4E24;&#x79CD;&#x6A21;&#x5F0F;">2. web&#x5F00;&#x53D1;&#x4E24;&#x79CD;&#x6A21;&#x5F0F;</h5>
+<table>
+<thead>
+<tr>
+<th>&#x5F00;&#x53D1;&#x6A21;&#x5F0F;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x524D;&#x540E;&#x7AEF;&#x4E0D;&#x5206;&#x79BB;</td>
+<td>&#x524D;&#x7AEF;&#x5C55;&#x793A;&#x7684;&#x6570;&#x636E;&#x6548;&#x679C;&#x6700;&#x7EC8;&#x662F;&#x7531;&#x540E;&#x7AEF;&#x8FDB;&#x884C;&#x63A7;&#x5236;&#x7684;&#xFF0C;&#x7531;&#x540E;&#x7AEF;&#x4F7F;&#x7528;&#x6A21;&#x677F;&#x8FDB;&#x884C;&#x6A21;&#x677F;&#x7684;&#x6E32;&#x67D3;&#xFF0C;&#x5C06;&#x6E32;&#x67D3;&#x4E4B;&#x540E;&#x7684;&#x5185;&#x5BB9;&#x8FD4;&#x56DE;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&#x8FDB;&#x884C;&#x663E;&#x793A;</td>
+</tr>
+<tr>
+<td>&#x524D;&#x540E;&#x7AEF;&#x5206;&#x79BB;</td>
+<td>&#x540E;&#x7AEF;&#x670D;&#x52A1;&#x5668;&#x53EA;&#x8FD4;&#x56DE;&#x524D;&#x7AEF;&#x6240;&#x9700;&#x8981;&#x6570;&#x636E;&#xFF0C;&#x524D;&#x7AEF;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x4E4B;&#x540E;&#x81EA;&#x5DF1;&#x63A7;&#x5236;&#x6570;&#x636E;&#x600E;&#x4E48;&#x8FDB;&#x884C;&#x5C55;&#x793A;</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x4E3E;&#x4F8B;: &#x65B0;&#x7ECF;&#x8D44;&#x8BAF;-&gt;&#x9996;&#x9875;-&gt;&#x83B7;&#x53D6;&#x5206;&#x7C7B;&#x65B0;&#x95FB;&#x4FE1;&#x606F;&#x3002;</p>
+<p>&#x524D;&#x7AEF;&#x53D1;&#x8D77;ajax-&gt;&#x540E;&#x7AEF;&#x670D;&#x52A1;&#x5668;&#x8FD4;&#x56DE;&#x5206;&#x7C7B;&#x65B0;&#x95FB;&#x6570;&#x636E;-&gt;&#x524D;&#x7AEF;&#x8FDB;&#x884C;&#x9875;&#x9762;&#x62FC;&#x63A5;&#x548C;&#x5C55;&#x793A;&#x3002;</p>
+</blockquote>
+<h5 id="3-restapi&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x98CE;&#x683C;">3. RestAPI&#x63A5;&#x53E3;&#x8BBE;&#x8BA1;&#x98CE;&#x683C;</h5>
+<pre><code>GET /books/: &#x83B7;&#x53D6;&#x6240;&#x6709;&#x56FE;&#x4E66;&#xFF0C;&#x8FD4;&#x56DE;&#x6240;&#x6709;&#x56FE;&#x4E66;&#x4FE1;&#x606F;
+POST /books/: &#x65B0;&#x5EFA;&#x4E00;&#x672C;&#x56FE;&#x4E66;&#xFF0C;&#x8FD4;&#x56DE;&#x65B0;&#x5EFA;&#x7684;&#x56FE;&#x4E66;&#x4FE1;&#x606F;
+GET /books/id/: &#x83B7;&#x53D6;&#x6307;&#x5B9A;&#x56FE;&#x4E66;&#xFF0C;&#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x56FE;&#x4E66;&#x4FE1;&#x606F;
+PUT /books/id/: &#x4FEE;&#x6539;&#x6307;&#x5B9A;&#x56FE;&#x4E66;&#xFF0C;&#x8FD4;&#x56DE;&#x4FEE;&#x6539;&#x56FE;&#x4E66;&#x4FE1;&#x606F;
+DELETE /books/id/: &#x5220;&#x9664;&#x6307;&#x5B9A;&#x56FE;&#x4E66;&#xFF0C;&#x8FD4;&#x56DE;&#x7A7A;&#x6587;&#x6863;
+</code></pre><p><strong>&#x5173;&#x952E;&#x70B9;</strong>:</p>
+<ol>
+<li>url&#x5730;&#x5740;&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x540D;&#x8BCD;&#xFF0C;&#x4E0D;&#x8981;&#x51FA;&#x73B0;&#x52A8;&#x8BCD;&#x3002;</li>
+<li>&#x91C7;&#x7528;&#x4E0D;&#x540C;&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF0C;&#x6267;&#x884C;&#x4E0D;&#x540C;&#x64CD;&#x4F5C;&#x3002;</li>
+<li>&#x8FC7;&#x6EE4;&#x53C2;&#x6570;&#x653E;&#x5728;&#x67E5;&#x8BE2;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x3002;</li>
+<li>&#x54CD;&#x5E94;&#x72B6;&#x6001;&#x7801;&#x9009;&#x62E9;&#x3002;</li>
+<li>&#x54CD;&#x5E94;&#x6570;&#x636E;&#x8FD4;&#x56DE;json&#x3002;</li>
+</ol>
+<h5 id="4-&#x4F7F;&#x7528;django&#x77E5;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;restapi&#x63A5;&#x53E3;">4. &#x4F7F;&#x7528;Django&#x77E5;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;RestAPI&#x63A5;&#x53E3;</h5>
+<p>&#x51C6;&#x5907;&#x5DE5;&#x4F5C;-&gt;&#x521B;&#x5EFA;&#x5E94;&#x7528;-&gt;&#x5B9A;&#x4E49;&#x6A21;&#x677F;&#x7C7B;-&gt;&#x751F;&#x6210;&#x6570;&#x636E;&#x8868;-&gt;&#x6DFB;&#x52A0;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x3002;</p>
+<pre><code>&#x4F7F;&#x7528;Django&#x77E5;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;RestAPI&#x63A5;&#x53E3;:
+1. &#x83B7;&#x53D6;&#x6240;&#x6709;&#x56FE;&#x4E66;&#x7684;&#x4FE1;&#x606F; GET /books/
+2. &#x65B0;&#x589E;&#x4E00;&#x672C;&#x56FE;&#x4E66;&#x4FE1;&#x606F;   POST /books/
+3. &#x83B7;&#x53D6;&#x6307;&#x5B9A;&#x7684;&#x56FE;&#x4E66;&#x4FE1;&#x606F; GET /books/(?P&lt;pk&gt;\d+)/
+4. &#x4FEE;&#x6539;&#x6307;&#x5B9A;&#x7684;&#x56FE;&#x4E66;&#x4FE1;&#x606F; PUT /books/(?P&lt;pk&gt;\d+)/
+5. &#x5220;&#x9664;&#x6307;&#x5B9A;&#x7684;&#x56FE;&#x4E66;&#x4FE1;&#x606F; DELETE /books/(?P&lt;pk&gt;\d+)/
+</code></pre><h5 id="5-restapi&#x63A5;&#x53E3;&#x5F00;&#x53D1;&#x65F6;&#x7684;&#x5DE5;&#x4F5C;">5. RestAPI&#x63A5;&#x53E3;&#x5F00;&#x53D1;&#x65F6;&#x7684;&#x5DE5;&#x4F5C;</h5>
+<table>
+<thead>
+<tr>
+<th>&#x6982;&#x5FF5;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x5E8F;&#x5217;&#x5316;</td>
+<td>&#x5C06;&#x7A0B;&#x5E8F;&#x4E2D;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7C7B;&#x578B;&#x8F6C;&#x5316;&#x4E3A;&#x5176;&#x4ED6;&#x7684;&#x6570;&#x636E;&#x683C;&#x5F0F;&#xFF0C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EB;&#x505A;&#x5E8F;&#x5217;&#x5316;&#x3002;&#x5728;&#x6211;&#x4EEC;&#x524D;&#x9762;&#x4F8B;&#x5B50;&#x4E2D;&#xFF0C;&#x5C06;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x8F6C;&#x5316;&#x4E3A;python&#x5B57;&#x5178;&#x6216;json&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x662F;&#x5E8F;&#x5217;&#x5316;&#x8FC7;&#x7A0B;&#x3002;</td>
+</tr>
+<tr>
+<td>&#x53CD;&#x5E8F;&#x5217;&#x5316;</td>
+<td>&#x5C06;&#x5176;&#x4ED6;&#x683C;&#x5F0F;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x4E3A;&#x7A0B;&#x5E8F;&#x4E2D;&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EB;&#x505A;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x3002;&#x5728;&#x6211;&#x4EEC;&#x524D;&#x9762;&#x4F8B;&#x5B50;&#x4E2D;&#xFF0C;&#x5C06;&#x5BA2;&#x6237;&#x7AEF;&#x53D1;&#x9001;&#x7684;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x5728;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x662F;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x8FC7;&#x7A0B;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x4E3B;&#x8981;&#x5DE5;&#x4F5C;</strong></p>
+<p>&#x200B;    1&#xFF09;&#x5C06;&#x8BF7;&#x6C42;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x5728;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x4E2D;(&#x53CD;&#x5E8F;&#x5217;&#x5316;)&#x3002;</p>
+<p>&#x200B;    2&#xFF09;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;&#x3002;</p>
+<p>&#x200B;    3&#xFF09;&#x5C06;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x8F6C;&#x6362;&#x4E3A;&#x524D;&#x7AEF;&#x6240;&#x9700;&#x7684;&#x683C;&#x5F0F;(&#x5E8F;&#x5217;&#x5316;)&#x3002;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../drf/index.html" class="navigation navigation-prev " aria-label="Previous page: DRF框架"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../drf/day02.html" class="navigation navigation-next " aria-label="Next page: 序列化器|视图类|扩展类"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
